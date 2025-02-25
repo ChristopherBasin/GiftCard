@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Michroma&display=swap');
+body{
+    text-align: center;
+    font-family: Barriecito, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #389ac7 0%, #0a87ad 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maria {
+    width: 300px; /* Adjust size */
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3); /* Light background */
+    border: 10px solid lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+#bday{
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid pink;
+}
+#elgato{
+    width: 150px;
+}
+h1{
+    margin-top: 0px;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px #002136;
+}
+h2, h3{
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 1px #00395f;
+    margin-bottom:0px;
+}
+.f1{
+    margin-top: 100px;
+}
+.f2{
+    letter-spacing: 2px;
+}
+.giftbox {
+    width: 500px;
+    height: 500px;
+    border: 10px solid pink;
+    background-image: url("images/gift.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.giftbox:hover{
+    background-image: url("images/gift1.gif");
+}
+.giftbox2 {
+    width: 500px;
+    height: 500px;
+    border: 10px solid pink;
+    background-image: url("images/gift.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.giftbox2:hover{
+    background-image: url("images/gift2.gif");
+}
+.giftbox3 {
+    width: 500px;
+    height: 500px;
+    border: 10px solid pink;
+    background-image: url("images/gift.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.giftbox3:hover{
+    background-image: url("images/gift3.gif");
+}
